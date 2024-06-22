@@ -6,4 +6,7 @@
         from_env: PG_DATABASE_URL
       isolation_level: read-committed
       use_prepared_statements: false
+  customization:
+    root_fields:
+      namespace: cli_demo2
   tables: "!include default/tables/tables.yaml"
